@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Default skin
+   ========================================================================== */
+
+// Intentionally left blank
+/* Colors */
+$background-color: #ffffff !default;
+$text-color: black !default;
+$muted-text-color: mix(#fff, $text-color, 20%) !default;
+$primary-color: black !default;
+$border-color: black !default;
+$footer-background-color: #014c8d !default;
+$link-color: rgb(0, 119, 255) !default;
+$masthead-link-color: white !default;
+$masthead-link-color-hover: white !default;
+$navicon-link-color-hover: mix(#fff, $footer-background-color, 30%) !default;
+
+.masthead {
+    background-color: $footer-background-color;
+}
+
+#site-nav {
+    background-color: $footer-background-color;
+}
